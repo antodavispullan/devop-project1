@@ -10,6 +10,6 @@ node{
         sh 'cp -r images/ /var/www/html/'
     }
     stage('Notify Email'){
-        sh 'sending email'
+        sh 'echo "sending email"'
     }    
 }
